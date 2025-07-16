@@ -1,9 +1,11 @@
-🌈 Mood-Based Wallpaper Changer
+
+# 🌈 Mood-Based Wallpaper Changer
 
 > A smart Python GUI app that changes your Windows desktop wallpaper based on how you're feeling using emotion detection + AI.
 
+---
 
- 📌 What This App Does
+## 📌 What This App Does
 
 - 🎯 Takes natural language input about your current mood
 - 🔍 Analyzes the emotion using keyword mapping + TextBlob sentiment fallback
@@ -11,8 +13,9 @@
 - 🖼️ Sets the image as your **desktop wallpaper instantly**
 - 🧠 Works with 30+ custom emotion-to-image mappings
 
+---
 
-📦 Technologies Used
+## 📦 Technologies Used
 
 - 🐍 Python 3.11+
 - 🧠 [TextBlob](https://textblob.readthedocs.io/en/dev/) – for sentiment fallback
@@ -21,8 +24,9 @@
 - 🖱️ Tkinter – to build the GUI interface
 - 📸 [Pexels API](https://www.pexels.com/api/) – for fetching high-res wallpapers
 
+---
 
-🔧 How to Set Up
+## 🔧 How to Set Up
 
 1. ✅ Make sure **Python 3.11+** is installed
 2. ✅ Clone or download this repo to your system
@@ -42,7 +46,7 @@
 
 ---
 
-▶️ How to Run the App
+## ▶️ How to Run the App
 
 ```bash
 python mood_gui_app.py
@@ -52,8 +56,9 @@ python mood_gui_app.py
 **"How are you feeling today?"**
 Enter your emotion → click **Change Wallpaper** → done!
 
+---
 
-🎭 Supported Emotions (Examples)
+## 🎭 Supported Emotions (Examples)
 
 | Emotion      | Image Keyword |
 | ------------ | ------------- |
@@ -69,8 +74,9 @@ Enter your emotion → click **Change Wallpaper** → done!
 | burned out   | desert        |
 | + 20 more... |               |
 
+---
 
-🧠 Behind the Scenes
+## 🧠 Behind the Scenes
 
 * First checks if any **predefined emotion** is present in input
 * If no match, falls back to **TextBlob sentiment polarity**:
@@ -79,8 +85,21 @@ Enter your emotion → click **Change Wallpaper** → done!
   * Polarity < 0.1 → neutral image
   * Else → positive image
 
+---
 
-📂 Folder Structure
+## 🪟 Screenshot Preview
+
+*(Add a screenshot here after upload)*
+
+```python
+root = tk.Tk()
+root.title("Mood-Based Wallpaper Changer")
+root.geometry("500x300")
+```
+
+---
+
+## 📂 Folder Structure
 
 ```
 MoodWallpaperChanger/
@@ -89,8 +108,9 @@ MoodWallpaperChanger/
 └── mood_wallpaper.jpg   # saved wallpaper (auto-generated)
 ```
 
+---
 
-🙋‍♀️ Created By
+## 🙋‍♀️ Created By
 
 **Sriya Kamat**
 Made with 💚 during a rollercoaster debugging ride
@@ -98,7 +118,7 @@ Connect on [LinkedIn](https://www.linkedin.com/) or ⭐ this repo if you found i
 
 ---
 
-📜 License
+## 📜 License
 
 This project is open-source for educational/personal use
 Attribution appreciated 🌱
@@ -109,9 +129,4 @@ Attribution appreciated 🌱
 
 ---
 
-> ✅ You can now copy-paste this into your `README.md` file directly.  
-> ✅ It's GitHub-optimized, beginner-readable, and presentable for personal portfolio use.
-
-Let me know if you'd like a **demo image badge**, **GitHub Pages deployment**, or **"Contributing" section** added next!
-```
 
