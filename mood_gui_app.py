@@ -8,7 +8,7 @@ import tkinter as tk
 from tkinter import messagebox
 
 # ========== PEXELS API KEY ==========
-PEXELS_API_KEY = "KPvK2GoMRjQA1Domci2u7t7AC7Na82NOuZ2AzzDCuxa9rHXjsJhA5tou"  # <- Replace this
+PEXELS_API_KEY = ""  # <- Replace this with your API key
 # ====================================
 
 # 30+ Emotion-to-image mappings
