@@ -26,7 +26,7 @@
 
 ---
 
-## 🔧 How to Set Up
+🔧 How to Set Up
 
 1. ✅ Make sure **Python 3.11+** is installed
 2. ✅ Clone or download this repo to your system
@@ -76,7 +76,7 @@ Enter your emotion → click **Change Wallpaper** → done!
 
 ---
 
-## 🧠 Behind the Scenes
+🧠 Behind the Scenes
 
 * First checks if any **predefined emotion** is present in input
 * If no match, falls back to **TextBlob sentiment polarity**:
@@ -85,21 +85,10 @@ Enter your emotion → click **Change Wallpaper** → done!
   * Polarity < 0.1 → neutral image
   * Else → positive image
 
----
-
-## 🪟 Screenshot Preview
-
-*(Add a screenshot here after upload)*
-
-```python
-root = tk.Tk()
-root.title("Mood-Based Wallpaper Changer")
-root.geometry("500x300")
-```
 
 ---
 
-## 📂 Folder Structure
+📂 Folder Structure
 
 ```
 MoodWallpaperChanger/
@@ -110,15 +99,14 @@ MoodWallpaperChanger/
 
 ---
 
-## 🙋‍♀️ Created By
+🙋‍♀️ Created By
 
 **Sriya Kamat**
 Made with 💚 during a rollercoaster debugging ride
-Connect on [LinkedIn](https://www.linkedin.com/) or ⭐ this repo if you found it helpful!
 
 ---
 
-## 📜 License
+📜 License
 
 This project is open-source for educational/personal use
 Attribution appreciated 🌱
